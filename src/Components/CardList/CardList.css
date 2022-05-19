@@ -1,0 +1,68 @@
+.CardList{
+    display: inline-block;
+    max-width: 20rem;
+    margin: 20px;
+    
+}
+
+.CardList:hover {
+    border-bottom: 2px #555 solid;
+    background-color: rgba(231, 220, 220, 0.606);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.CardImg{
+    display: block;
+    height: 305px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.CardInfo{
+    margin: 10px;
+    /* display: flex; */
+    flex-direction: column;
+    text-align: right;
+
+}
+
+.CardTitle{
+    font-weight: bold;
+    font-family: fantasy;
+   
+}
+
+
+
+.CardList--date--cat{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.CardDate, .CardCat {
+    margin: 6.4px;
+    font-size: 12.3px;
+}
+
+.CardDesc{
+   
+   
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    font-size: 15.3px;
+    font-weight: lighter;
+    font-family: 'Explora', cursive;
+
+}
+
+.cardBtn{
+    margin: 25px;
+}

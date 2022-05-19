@@ -4,3 +4,4 @@ export {default as Home} from '../Pages/Home/Home';
 export {default as Footer } from './Footer/Footer';
 export {default as CardList} from './CardList/CardList';
 export { default as FeaturedCard} from './FeaturedCard/FeaturedCard';
+export {default as FirstCard } from './FirstCard/FirstCard'

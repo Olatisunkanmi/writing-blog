@@ -1,0 +1,65 @@
+.FirstCard--container{
+    max-width: 100%;
+    margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.FirstCard--img{
+    width: 1000px;
+    border-radius: 18%;
+    border: 15px solid rgb(197, 153, 95);
+}
+
+.FirstCard--att--div{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.FirstCard--date--cat{
+    margin-top: 10px;
+}
+
+.FirstCard--date, .FirstCard--cat{
+    margin: 6.4px;
+    font-size: 12.3px;
+    
+}
+
+.FirstCard--cat{
+    cursor: pointer;
+}
+
+.FirstCard--title{
+
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    font-weight: bolder;
+    color: rgb(221, 134, 19);
+    margin: 20px;
+    cursor: pointer;
+}
+
+.FirstCard--desc{
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Explora', cursive;
+
+
+}
+
+.FirstCard--btn{
+    margin: 20px;
+    padding: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.container--FeaturedCard{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    max-width: 1080px;
+    margin: 0 auto;
+  
+}
+
+.Featured--Articles{
+    border-top: 4px solid rgba(231, 220, 220, 0.606);
+    border-bottom: 4px solid rgba(231, 220, 220, 0.606);
+    max-width: 1080px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+}
