@@ -1,0 +1,17 @@
+.container{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.header--title{
+    font-family: 'Yesteryear', cursive;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.header--para{
+    font-family: 'Explora', cursive;
+    font-style: italic;
+    font-size: 14.9px;
+    color: rgb(56, 46, 46);
+}
