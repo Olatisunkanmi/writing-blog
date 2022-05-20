@@ -57,10 +57,11 @@ const SinglePost = () => {
                   
                 </textarea>
 
+                <button className='post--comment--btn'> Submit </button>
             </div>    
             
             
-            
+            <h3 className="Recent--posts"> Recent Post </h3>
             <CardList />
             <CardList />
             <CardList />
