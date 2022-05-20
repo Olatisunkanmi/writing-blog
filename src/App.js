@@ -1,4 +1,4 @@
-import {Topbar, Home, Footer } from './Components/Index'
+import {Topbar, Home, Footer, Header, Post } from './Components/Index'
 import './App.css';
 
 
@@ -10,8 +10,14 @@ function App() {
       
     <Topbar />
     <div className='container'>
-      <Home />
+      <Header />
+      <Post />
+    {
+        // <Home />
+    }
+
     </div>
+
 
     <Footer />
     </>

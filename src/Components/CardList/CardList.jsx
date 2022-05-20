@@ -28,7 +28,7 @@ const CardList = () => {
           <button className='cardBtn'> Read More </button>
       </div>
 
-      
+     
     </div>
 
 
