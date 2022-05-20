@@ -1,5 +1,6 @@
 import './SinglePost.css';
 import  love from '../../Assests/love.jpg';
+import { CardList } from '../Index';
 import { Comment, MenuBook, Person, Timeline, Timer } from '@material-ui/icons';
 
 const SinglePost = () => {
@@ -58,8 +59,11 @@ const SinglePost = () => {
 
             </div>    
             
-            <button className='post--comment--btn'> Post Comment</button>
             
+            
+            <CardList />
+            <CardList />
+            <CardList />
         </div>
     </>
   )
