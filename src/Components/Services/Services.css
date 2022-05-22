@@ -1,0 +1,72 @@
+.services--container{
+    margin: 0 auto;
+    max-width: 1080px;
+    margin-bottom: 50px;
+}
+
+.services--header{
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+.services--h3{
+    font-size: 56px;
+    font-family: 'Lora', cursive;
+    margin-bottom: 20px;
+
+}
+
+.services--para{
+    font-size: 32px;
+    color: rgb(227, 173, 102);
+    font-family: 'Lora', cursive;
+}
+
+
+.creative--writing, .software--dev{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.creative--writing--text-area{
+    text-align: left;
+  
+}
+
+.creative--writing--header, .software--dev--header{
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Lora', cursive;
+    color: rgb(227, 173, 102);
+
+}
+
+.software--dev--para, .creative--writing--para{
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 25px;
+
+}
+
+.creative--writing--btn, .software--dev--btn{
+    padding: 14px;
+    border-radius: 30px;
+    background-color: burlywood;
+    border: 2px solid;
+    cursor: pointer;
+    font-weight: 900;
+
+}
+
+
+
+.creative--writing--img, .software--dev--img{
+    width: 515px;
+    height: 545px;
+}
+
+.software--dev--text-area{
+    text-align: right;
+}
