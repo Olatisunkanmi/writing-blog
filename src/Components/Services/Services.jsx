@@ -1,10 +1,12 @@
 import './Services.css';
+import {Header } from '../Index'
 import pinball from '../../Assests/pinball.jpg'
 
 
 const Services = () => {
   return (
         <>
+            <Header />
             <div className="services--container"> 
                     <div className="services--header">
                     <h3 className='services--h3'>Services </h3>

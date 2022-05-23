@@ -1,0 +1,91 @@
+
+.body--register{
+    background-color: rgb(199, 193, 181);
+}
+
+.wrapper{
+    max-width: 1080px;
+    margin: 0 auto; 
+    /* background-color: #444; */
+  
+     justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.wrapper-div{
+    margin-top: 120px;
+    background-color: rgb(243, 237, 226);
+    max-width: 900px;
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.register--header{
+    background-color: burlywood;
+    /* margin: 10px; */
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 33px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.text--register{
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.input--register{
+    width: 220px;
+    height: 25px;
+    border-bottom: 2px #444 solid !important;
+    border: none;
+    background-color: white;
+    margin: 3px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.Gender--div{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.gender-options{
+    border: 2px solid #444;
+
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.submit--div{
+    background-color: burlywood;
+    /* margin: 10px; */
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.sign-btn{
+    padding: 14px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.forgot{
+    text-align: left;
+    margin-left: 10px;
+    color: blue;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
