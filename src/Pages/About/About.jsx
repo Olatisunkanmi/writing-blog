@@ -109,12 +109,12 @@ const About = () => {
     <div className="wrapper--container">
 
             <div className="contact--div">
-            <button>Contact Me!</button>
+            <button className='contact--btn'>Contact Me!</button>
             <p>Everything Begins with an Hello !</p>
             </div>
 
             <div className="social-media">
-           <p>Copyright 2022</p>
+           <p className='copy'> &#169; Copyright 2022</p>
             <Instagram className='media--icon'/>
             <Twitter className='media--icon'/>
             <LinkedIn className='media--icon'/>

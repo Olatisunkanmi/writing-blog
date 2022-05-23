@@ -1,6 +1,4 @@
-*{
-   background-color: rgba(191, 189, 189, 0.147);
-}
+
 
 .body--container{
     max-width: 1700px;
@@ -38,7 +36,7 @@
     position: relative;
    bottom: 15px;
    margin: auto 170px; 
-   
+   right: 50px;
     border-top: 1.4px solid rgb(222, 161, 81); 
    
 }
@@ -145,7 +143,7 @@ color: rgba(0, 0, 0, 0.863);
 position: relative;
 bottom: 15px;
 margin: auto 150px;
-left: 100px;
+left: 20px;
  border-top: 2px solid rgb(222, 161, 81);
 }
 
@@ -198,13 +196,14 @@ font-weight: 600;
 .contact--div > button{
    padding: 10px;
    border: none;
-   background-color: rgb(193, 185, 185);
+   background-color: aliceblue;
    cursor: pointer;
    border: 2px solid black;
    font-size: 15px;
    color: black;
    font-weight: 800;
 }
+
 
 .contact--div > p {
    font-size: 15px;
@@ -217,5 +216,15 @@ font-weight: 600;
    flex: 2;
    display: flex;
    align-items: center;
-  
+
+}
+
+.copy{
+   margin-left: 20px;
+   font-size: 22px;
+   font-weight: 700;
+}
+
+.media--icon{
+   margin-left: 20px;
 }
