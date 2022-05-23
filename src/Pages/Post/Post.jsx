@@ -1,11 +1,11 @@
-import { SinglePost, Header } from "../../Components/Index";
+import { SinglePost, Header, Footer } from "../../Components/Index";
 
 const Post = () => {
   return (
   <>
       <Header />
       <SinglePost />
-  
+      <Footer />
   
   </>
   )

@@ -1,5 +1,5 @@
 import './Services.css';
-import {Header } from '../Index'
+import {Header, Footer } from '../Index'
 import pinball from '../../Assests/pinball.jpg'
 
 
@@ -51,6 +51,8 @@ const Services = () => {
                        
                     </div>
             </div>
+
+            <Footer />
         </>
   )
 }

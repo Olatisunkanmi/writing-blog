@@ -1,4 +1,6 @@
-import {Topbar, Home, Footer, Header, Post, Services, Login, About } from './Components/Index'
+import {Topbar, Home, Footer, Header, Post, Services, Login, About } from './Components/Index';
+import { render } from "react-dom";
+import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import './App.css';
 
 
@@ -10,19 +12,23 @@ function App() {
       
     <Topbar />
     <div className='container'>
-    <About />
+    <BrowserRouter>   
+        <Routes> 
+            <Route  
+       </Routes>
+    </BrowserRouter>
 
     {
 
-      // <Login />
+     
       
-    // 
+    // <About />
     // <Home /> 
       //  <Services />
       // 
       //  <Post />
-     
-      // <Footer />
+      // <Login />
+    
     }
 
     </div>

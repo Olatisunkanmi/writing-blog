@@ -1,13 +1,13 @@
 import './About.css'
 import profileImage from '../../Assests/sk.jpg'
-import {Header } from '../../Components/Index'
+import {Header, Footer } from '../../Components/Index'
 import {GitHub, Instagram, LinkedIn, Twitter } from '@material-ui/icons'
 
 
 const About = () => {
   return (
     <>
-      
+<Header />
 <div class="body--container">
      <div class="img--div">
          <img src={profileImage} alt="" class="about-me-img" />
