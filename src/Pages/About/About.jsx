@@ -74,8 +74,6 @@ const About = () => {
                             <li class="hobbies-li"> Music and Karaoke </li>
                             <li class="hobbies-li"> Sports and Games </li>
                             <li class="hobbies-li"> Sports and Games </li>
-                           
-                         
                         </ul>
                     </div>
                 </div>
