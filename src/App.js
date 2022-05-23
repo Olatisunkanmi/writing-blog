@@ -1,4 +1,4 @@
-import {Topbar, Home, Footer, Header, Post, Services, Login, About } from './Components/Index';
+import {Topbar, Home, Post, Services, Login, About } from './Components/Index';
 import { render } from "react-dom";
 import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import './App.css';
@@ -14,22 +14,13 @@ function App() {
     <div className='container'>
     <BrowserRouter>   
         <Routes> 
-            <Route  
+        <Route exact path='/' element={<Home />} /> 
+        <Route exact path='/about' element={<About />} /> 
+        <Route  path='/Post' element={<Post />} /> 
+        <Route  path='/Login' element={<Login />} /> 
+        <Route  path='/Services' element={<Services />} /> 
        </Routes>
     </BrowserRouter>
-
-    {
-
-     
-      
-    // <About />
-    // <Home /> 
-      //  <Services />
-      // 
-      //  <Post />
-      // <Login />
-    
-    }
 
     </div>
 
