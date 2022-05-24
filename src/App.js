@@ -14,9 +14,11 @@ function App() {
     <div className='container'>
     <BrowserRouter>   
         <Routes> 
-        <Route exact path='/' element={<Home />} /> 
-        <Route exact path='/about' element={<About />} /> 
-        <Route  path='/Post' element={<Post />} /> 
+              <Route exact path='/' element={<Home />} >
+              <Route  path='/Post' element={<Post />} /> 
+              </Route>
+        <Route  path='/about' element={<About />} /> 
+       
         <Route  path='/Login' element={<Login />} /> 
         <Route  path='/Services' element={<Services />} /> 
        </Routes>
