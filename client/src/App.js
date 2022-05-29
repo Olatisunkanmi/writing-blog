@@ -12,7 +12,7 @@ function App() {
       
     <Topbar />
     <div className='container'>
-    <BrowserRouter>   
+    <BrowserRouter >   
         <Routes> 
             
         <Route exact path='/' element={<Home />} />
